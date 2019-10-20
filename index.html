@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada|Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h1>CRYSTALS COLLECTOR - The Game </h1>
+    <h6>(not to be confused with the movie)</h6>
+
+    <section class="instructions">
+        <h2>Instructions</h2>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
+            total score.</p>
+        <p>You win the game by matching your total score to random number. You lose the game if your total score goes
+            above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </section>
+
+    <section class="crystals">
+        <div class="image"><img src="assets/images/crystal1.png" alt="crystal1"></div>
+        <div class="image"><img src="assets/images/crystal2.png" alt="crystal2"></div>
+        <div class="image"><img src="assets/images/crystal3.png" alt="crystal3"></div>
+        <div class="image"><img src="assets/images/crystal4.png" alt="crystal4"></div>
+    </section>
+
+    <section class="values">
+        <div class="target">
+            <h2 class="number">Target: <span class="randNum">0</span></h2>
+            <h2 class="number">&nbsp;</h2>
+        </div>
+        <div class="score">
+            <h2 class="number">Wins: <span class="wins">0</span></h2>
+            <h2 class="number">Losses: <span class="losses">0</span></h2>
+        </div>
+    </section>
+
+    <section class="math">
+        <div class="totalbox">
+            <p class="totallabel">Your total score is:</p>
+            <h2 class="number"><span class="totalscore">0</span>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
