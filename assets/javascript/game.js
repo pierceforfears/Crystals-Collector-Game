@@ -1,5 +1,5 @@
 // Global variables
-let score = 0;
+// let score = 0;
 let targetNum = 0;
 let wins = 0;
 let losses = 0;
@@ -22,18 +22,21 @@ $("#targetNum").text(targetNum)
     $("#crystal4").attr("value", crystalValues[3]);
 
 
-
     $("#crystal1").on("click", () => {
-        total.push(crystalValues[0]);
+        let score = total + (crystalValues[0]);
+        console.log(score);
     });
     $("#crystal2").on("click", () => {
-        total.push(crystalValues[1]);    
+        let score = total + (crystalValues[1]);
+        console.log(score);    
     });
     $("#crystal3").on("click", () => {
-        total.push(crystalValues[2]);
+        let score = total + (crystalValues[2]);
+        console.log(score);
     });
     $("#crystal4").on("click", () => {
-        total.push(crystalValues[3]);
+        let score = total + (crystalValues[3]);
+        console.log(score);
     });
-    document.getElementById("total").value;
-    console.log(total);
+    // document.getElementById("total").value;
+    // console.log(count);
