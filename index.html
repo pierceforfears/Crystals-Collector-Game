@@ -28,15 +28,15 @@
     </section>
 
     <section class="crystals">
-        <div class="image"><img src="assets/images/crystal1.png" alt="crystal1"></div>
-        <div class="image"><img src="assets/images/crystal2.png" alt="crystal2"></div>
-        <div class="image"><img src="assets/images/crystal3.png" alt="crystal3"></div>
-        <div class="image"><img src="assets/images/crystal4.png" alt="crystal4"></div>
+        <div class="image" id="crystal1"><img src="assets/images/crystal1.png" alt="crystal1"></div>
+        <div class="image" id="crystal2"><img src="assets/images/crystal2.png" alt="crystal2"></div>
+        <div class="image" id="crystal3"><img src="assets/images/crystal3.png" alt="crystal3"></div>
+        <div class="image" id="crystal4"><img src="assets/images/crystal4.png" alt="crystal4"></div>
     </section>
 
-    <section class="values">
+    <section class="values">        
         <div class="target">
-            <h2 class="number">Target: <span class="randNum">0</span></h2>
+            <h2 class="number">Target: <span id="targetNum">0</span></h2>
             <h2 class="number">&nbsp;</h2>
         </div>
         <div class="score">
@@ -48,9 +48,11 @@
     <section class="math">
         <div class="totalbox">
             <p class="totallabel">Your total score is:</p>
-            <h2 class="number"><span class="totalscore">0</span>
+            <h2 class="number"><span id="total">0</span>
+            <h2 class="number"><span id="message"></span></h2>
         </div>
     </section>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
