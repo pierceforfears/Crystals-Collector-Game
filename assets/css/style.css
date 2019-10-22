@@ -33,6 +33,9 @@ img {
     width: 100px;
     padding: 20px;
 }
+img:active {
+    transform: translateY(10px);
+}
 .values {
     width: 100%;
     text-align: center;
@@ -76,10 +79,13 @@ img {
     display: flex;
     font-size: 30px;
     border-radius: 4px;
-    flex-shrink: 2;
 }
 #resetGame:hover {
     color: #fff;
     background-color: #000;
-    flex-shrink: 3;
+}
+#resetGame:active {
+    color: grey;
+    background-color: #000;
+    transform: translateY(4px);
 }
