@@ -16,46 +16,46 @@
     <h1>CRYSTALS COLLECTOR - The Game </h1>
     <h6>(not to be confused with the movie)</h6>
 
-    <section class="instructions">
-        <h2>Instructions</h2>
-        <p>Welcome to the Crystal Collector game!</p>
-        <p>The object of the game is simple - just match your crystal collection value with the Target value.</p>
-        <p>Click on the crystals to determine each of their their hidden values. Then simply keep clicking until your
-            Crystal Collection value is equal to that of the Target value. See how many wins you can rack up! The
-            crystal values change when you click "Play Again!"</p>
-    </section>
+    <div class="main">
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <p>Welcome to the Crystal Collector game!</p>
+            <p>The object of the game is simple - just match your crystal collection value with the Target value.</p>
+            <p>Click on the crystals to determine each of their their hidden values. Then simply keep clicking until
+                your
+                Crystal Collection value is equal to that of the Target value. See how many wins you can rack up! The
+                crystal values change when you click "Play Again!"</p>
+        </section>
 
-    <section class="crystals">
-        <div class="image" id="crystal1"><img src="assets/images/crystal1.png" alt="crystal1"></div>
-        <div class="image" id="crystal2"><img src="assets/images/crystal2.png" alt="crystal2"></div>
-        <div class="image" id="crystal3"><img src="assets/images/crystal3.png" alt="crystal3"></div>
-        <div class="image" id="crystal4"><img src="assets/images/crystal4.png" alt="crystal4"></div>
-    </section>
+        <section class="crystals">
+            <div class="image" id="crystal1"><img src="assets/images/crystal1.png" alt="crystal1"></div>
+            <div class="image" id="crystal2"><img src="assets/images/crystal2.png" alt="crystal2"></div>
+            <div class="image" id="crystal3"><img src="assets/images/crystal3.png" alt="crystal3"></div>
+            <div class="image" id="crystal4"><img src="assets/images/crystal4.png" alt="crystal4"></div>
+        </section>
 
-    <section class="values">
-        <div class="target">
-            <h2 class="number">Target: <span id="targetNum">0</span></h2>
-            <h2 class="number">&nbsp;</h2>
-        </div>
-        <div class="score">
-            <h2 class="number">Wins: <span id="winCount">0</span></h2>
-            <h2 class="number">Losses: <span id="lossCount">0</span></h2>
-        </div>
-    </section>
+        <section class="values">
+            <div class="target">
+                <h2 class="number">Target: <span id="targetNum">0</span></h2>
+                <h2 class="number">&nbsp;</h2>
+            </div>
+            <div class="score">
+                <h2 class="number">Wins: <span id="winCount">0</span></h2>
+                <h2 class="number">Losses: <span id="lossCount">0</span></h2>
+            </div>
+        </section>
 
-    <section class="math">
-        <div class="totalbox">
-            <p class="totallabel">Your Crystal Collection value is:</p>
-            <h2 class="number"><span id="total">0</span>
-                <h2 class="number"><span id="message"></span></h2>
-        </div>
-    </section>
+        <section class="math">
+            <div class="totalbox">
+                <p class="totallabel">Your Crystal Collection value is:</p>
+                <h2 class="number"><span id="total">0</span>
+                    <h2 class="number"><span id="message"></span></h2>
+            </div>
+        </section>
 
+        <btn id="resetGame">Play Again!</btn>
 
-
-
-    <btn id="resetGame">Play Again!</btn>
-
+    </div>
     <footer>
         <h5>&copy; 2019 Invisible Pixel 2019</h6>
     </footer>

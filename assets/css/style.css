@@ -1,6 +1,10 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+.main {
+    min-height: 750px;
+
+}
 h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 35px;
