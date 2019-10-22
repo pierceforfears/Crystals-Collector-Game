@@ -18,13 +18,9 @@
 
     <section class="instructions">
         <h2>Instructions</h2>
-        <p>You will be given a random number at the start of the game.</p>
-        <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your
-            total score.</p>
-        <p>You win the game by matching your total score to random number. You lose the game if your total score goes
-            above the random number.</p>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        <p>Welcome to the Crystal Collector game!</p>
+        <p>The object of the game is simple - just match your crystal collection value with the Target value.</p>
+        <p>Click on the crystals to determine each of their their hidden values. Then simply keep clicking until your Crystal Collection value is equal to that of the Target value. See how many wins you can rack up!  The crystal values change when you click "Play Again!"</p>
     </section>
 
     <section class="crystals">
@@ -34,24 +30,28 @@
         <div class="image" id="crystal4"><img src="assets/images/crystal4.png" alt="crystal4"></div>
     </section>
 
-    <section class="values">        
+    <section class="values">
         <div class="target">
             <h2 class="number">Target: <span id="targetNum">0</span></h2>
             <h2 class="number">&nbsp;</h2>
         </div>
         <div class="score">
-            <h2 class="number">Wins: <span class="wins">0</span></h2>
-            <h2 class="number">Losses: <span class="losses">0</span></h2>
+            <h2 class="number">Wins: <span id="winCount">0</span></h2>
+            <h2 class="number">Losses: <span id="lossCount">0</span></h2>
         </div>
     </section>
 
     <section class="math">
         <div class="totalbox">
-            <p class="totallabel">Your total score is:</p>
+            <p class="totallabel">Your Crystal Collection value is:</p>
             <h2 class="number"><span id="total">0</span>
-            <h2 class="number"><span id="message"></span></h2>
+                <h2 class="number"><span id="message"></span></h2>
         </div>
     </section>
+
+
+    <btn id="resetGame">Play Again!</btn>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>

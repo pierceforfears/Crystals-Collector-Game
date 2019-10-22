@@ -13,7 +13,7 @@ h6 {
     border-bottom: 1px solid grey;
 }
 .instructions {
-    margin: 20px 80px;
+    margin: 15px 80px 0;
 }
 h2 {
     font-size: 30px;
@@ -23,7 +23,7 @@ p {
     padding: 0 0 10px;
 }
 .crystals {
-    padding: 10px;
+    padding: 0;
     margin:0 10px;
     display: flex;
     align-items: center;
@@ -40,19 +40,19 @@ img {
 .target,
 .score {
     width: 200px;
-    height: 150px;
+    height: 100px;
     border: 1px solid grey;
     margin: 20px;
     display: inline-block;
 }
 .values .number {
-    padding: 20px;
+    padding: 10px;
 }
 .math {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .totalbox {
     width: 446px;
@@ -63,4 +63,23 @@ img {
 }
 .totallabel {
     padding: 20px auto;
+}
+
+#resetGame {
+    background-color: grey;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 446px;
+    height: 100px;
+    display: flex;
+    font-size: 30px;
+    border-radius: 4px;
+    flex-shrink: 2;
+}
+#resetGame:hover {
+    color: #fff;
+    background-color: #000;
+    flex-shrink: 3;
 }
