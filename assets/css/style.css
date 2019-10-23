@@ -107,3 +107,24 @@ h5 {
     z-index: 100;
     background-color: #fff;
 }
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+
+@media screen and (max-width: 640px){
+    /* General */
+    body {
+        width: 100%;
+    }
+
+    .main {
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        min-height: 920px;
+    }
+    img {
+        width: 75px;
+        padding: 10px;
+    }
