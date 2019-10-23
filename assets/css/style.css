@@ -109,10 +109,10 @@ h5 {
 }
 /*
   These rules take effect when the browser's width
-  is either 640px or less.
+  is either 360px or less.
 */
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 500px){
     /* General */
     body {
         width: 100%;
@@ -121,9 +121,18 @@ h5 {
     .main {
         padding: 0;
         margin: 0 auto;
-        min-height: 920px;
+        min-height: 1000px;
     }
     img {
-        width: 85px;
+        width: 70px;
         padding: 10px;
     }
+    #resetGame {
+        background-color: grey;
+        color: #000;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        width: 100%;
+        height: 100px;
+        border-radius: 0;
