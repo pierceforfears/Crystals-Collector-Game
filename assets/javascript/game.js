@@ -68,5 +68,6 @@ $("#crystal4").on("click", function () {
     score();
 })
 $("#resetGame").on("click", () => {
-    document.getElementById("message").innerHTML = "";  
+    document.getElementById("message").innerHTML = ""; 
+    startGame();
 })
