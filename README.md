@@ -1,5 +1,7 @@
 Crystal Collector Game
 
+https://pierceforfears.github.io/Crystals-Collector-Game/
+
 Here's how the app works:
 
    * There will be four crystals displayed as buttons on the page.
